@@ -1,0 +1,7 @@
+//idhi (5)
+
+package com.chandu.spring.springhibernate.dao;
+
+public interface EmployeeDao {
+
+}

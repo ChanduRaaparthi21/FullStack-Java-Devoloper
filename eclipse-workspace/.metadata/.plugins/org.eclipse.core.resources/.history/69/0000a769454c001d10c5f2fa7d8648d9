@@ -1,0 +1,37 @@
+package com.chandu.spring.springjdbc.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import java.sql.*;
+
+import com.chandu.spring.springjdbc.dto.Employee;
+
+public class EmployeedaoImpl implements Employeedao {
+	
+	JdbcTemplate jdbcTepmlate;
+
+	public void insertEmployee(Employee employee) {
+		
+		//code to insert Employee Object into database
+		
+		
+		
+
+	}
+
+	public List<Employee> findAllEmployees() {
+		
+		
+		return null;
+	}
+
+	public Employee getEmployeeById(String id) {
+		//code to get Employee based on particular id
+		
+		return null;
+	}
+
+}

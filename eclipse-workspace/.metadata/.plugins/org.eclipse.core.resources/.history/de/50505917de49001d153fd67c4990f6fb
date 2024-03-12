@@ -1,0 +1,36 @@
+package com.chandu.setterinjection.myfirstproject;
+
+import java.util.List;
+
+public class Customer {
+	
+	private String name;
+	private String contact;
+	private List<String> addresses;
+	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getContact() {
+		return contact;
+	}
+	public void setContact(String contact) {
+		this.contact = contact;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public List<String> getAddresses() {
+		return addresses;
+	}
+	public void setAddresses(List<String> addresses) {
+		this.addresses = addresses;
+	}
+	
+	
+
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+ 
+   
+   <bean name="cus" class="com.chandu.setterinjection.myfirstproject.Customer">
+   
+   <property name="name">
+   <value>chandu</value>
+   </property>
+   <property name="contact">
+   <value>122342</value>
+   </property>
+   
+   <property name="addresses">
+   
+   <props>
+   
+   <prop key="Home">nzd</prop>
+    <prop key="of1">hyd</prop>
+     <prop key="of2">vspk</prop>
+   
+   </props>
+   
+   </property>
+   
+   </bean>
+   
+   
+   
+   <bean name="ord" class="com.chandu.setterinjection.myfirstproject.Order">
+   
+   
+    <property name="productid">
+   <value>p123</value>
+   </property>
+   
+   <property name="productname">
+   <value>Apple Macbook air</value>
+   </property>
+   
+   <property name="customer">
+   
+   <ref bean="cus"></ref>  
+   </property>
+   
+   
+   
+   
+   </bean>
+ 
+   
+     
+ 
+
+
+</beans>

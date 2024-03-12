@@ -1,0 +1,7 @@
+//idhi (3)
+
+package com.chandu.spring.springhibernate.business;
+
+public interface EmployeeBusiness {
+
+}

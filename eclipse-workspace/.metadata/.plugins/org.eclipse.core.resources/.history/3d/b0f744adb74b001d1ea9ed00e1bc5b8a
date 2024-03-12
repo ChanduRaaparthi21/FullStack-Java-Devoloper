@@ -1,0 +1,5 @@
+package com.chandu.spring.springjdbc.dao;
+
+public interface Employeedao {
+
+}

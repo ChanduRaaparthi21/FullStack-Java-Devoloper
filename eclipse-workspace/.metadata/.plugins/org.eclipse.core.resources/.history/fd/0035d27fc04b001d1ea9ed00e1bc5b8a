@@ -1,0 +1,22 @@
+package com.chandu.spring.springjdbc.business;
+
+import java.util.List;
+
+import com.chandu.spring.springjdbc.dao.Employeedao;
+import com.chandu.spring.springjdbc.dto.Employee;
+
+public class EmployeeBusinessImpl implements EmployeeBusiness {
+	
+	private Employeedao employeedao;
+
+	public void printEmployeeHikes() {
+		
+		//ask dao for employee data
+		   List<Employee> employees = employeedao.findAllEmployees();
+		
+		//check each employee and print hike
+		
+
+	}
+
+}

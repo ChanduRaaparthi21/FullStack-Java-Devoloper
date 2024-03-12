@@ -1,0 +1,10 @@
+//idhi (6)
+
+package com.chandu.spring.springhibernate.dao;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class EmployeeDaoImpl implements EmployeeDao {
+
+}

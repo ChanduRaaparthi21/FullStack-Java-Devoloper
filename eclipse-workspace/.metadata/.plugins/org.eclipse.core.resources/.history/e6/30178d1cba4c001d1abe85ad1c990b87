@@ -1,0 +1,7 @@
+//idhi (6)
+
+package com.chandu.spring.springhibernate.dao;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+
+}

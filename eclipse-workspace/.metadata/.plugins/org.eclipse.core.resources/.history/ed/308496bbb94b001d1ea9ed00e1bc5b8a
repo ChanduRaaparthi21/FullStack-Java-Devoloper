@@ -1,0 +1,14 @@
+package com.chandu.spring.springjdbc.business;
+
+public class EmployeeBusinessImpl implements EmployeeBusiness {
+
+	public void printEmployeeHikes() {
+		
+		//ask dao for employee data
+		
+		//check eacg employee and print hike
+		
+
+	}
+
+}

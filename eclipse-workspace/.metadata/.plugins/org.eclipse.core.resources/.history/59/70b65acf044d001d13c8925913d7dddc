@@ -1,0 +1,43 @@
+//idhi (4)
+
+package com.chandu.spring.springhibernate.business;
+
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+import com.chandu.spring.springhibernate.dao.EmployeeDao;
+import com.chandu.spring.springhibernate.entities.Employee;
+
+@Component  //automatic ga configuration chesukuntadhi
+public class EmployeeBusinessImpl implements EmployeeBusiness {
+
+	
+	private EmployeeDao employeeDao;
+	
+	public void save(Employee employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void update(Employee employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void delete(Employee employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Employee findById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Employee> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

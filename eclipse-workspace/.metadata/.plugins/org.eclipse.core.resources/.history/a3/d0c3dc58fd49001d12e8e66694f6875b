@@ -1,0 +1,30 @@
+package com.chandu.setterinjection.myfirstproject;
+
+import java.util.Date;
+
+public class Order {
+	
+	private String productid;
+	private String productname;
+	
+	private Customer customer;
+	
+	public Order(String productid,String productname,Customer customer)
+	{
+		this.productid=productid;
+		this.productname=productname;	
+		this.customer=customer;
+		
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Order [productid=" + productid + ", productname=" + productname + ", orderdate=" + orderdate
+				+ ", customer=" + customer + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
+	}
+	
+	
+
+}

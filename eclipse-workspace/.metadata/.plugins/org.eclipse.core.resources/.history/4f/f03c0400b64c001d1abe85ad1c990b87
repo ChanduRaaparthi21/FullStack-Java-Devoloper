@@ -1,0 +1,27 @@
+package com.chandu.spring.springhibernate.entities;
+
+public class Employee {
+	
+	private int id;
+	private String ename;
+	private String address;
+	private String contact;
+	private int exp;
+	
+	Employee()
+	{
+		
+	}
+
+	public Employee(int id, String ename, String address, String contact, int exp) {
+		super();
+		this.id = id;
+		this.ename = ename;
+		this.address = address;
+		this.contact = contact;
+		this.exp = exp;
+	}
+	
+	
+
+}

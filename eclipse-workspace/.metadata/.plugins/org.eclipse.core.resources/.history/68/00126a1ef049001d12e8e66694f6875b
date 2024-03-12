@@ -1,0 +1,18 @@
+package com.chandu.setterinjection.myfirstproject;
+
+import java.util.Map;
+import java.util.Properties;
+import java.util.Set;
+
+public class Customer {
+	
+	private String name;
+	private String contact;
+	private  Properties  addresses;
+	
+	
+	
+	
+	
+
+}

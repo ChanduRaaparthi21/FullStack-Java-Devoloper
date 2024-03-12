@@ -1,0 +1,10 @@
+package com.chandu.spring.springjdbc.dao;
+
+import com.chandu.spring.springjdbc.dto.Employee;
+
+public interface Employeedao {
+	
+	void insertEmployee(Employee employee);
+	
+	
+}

@@ -1,0 +1,60 @@
+package com.chandu.spring.springjdbc.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.sql.*;
+
+import com.chandu.spring.springjdbc.dto.Employee;
+
+public class EmployeedaoImpl implements Employeedao {
+
+	public void insertEmployee(Employee employee) {
+		
+		//code to insert Employee Object into database
+
+	}
+
+	public List<Employee> findAllEmployees() {
+		
+		//code to return Employees in Employee Table
+		 String driver="com.mysql.cj.jdbc.Driver";
+		  String url="jdbc:mysql://localhost:3306/springjdbc";
+		  String username="root";
+		  String password="chandu242638";
+		  
+		  List<Employee> employees = new ArrayList<Employee>();
+		  
+		  try {
+			Class.forName(driver);
+			  Connection con=DriverManager.getConnection(url, username, password);
+			  Statement stmt=con.createStatement();
+			  ResultSet rs=stmt.executeQuery("select * from employee");
+			  
+			  
+			  while(rs.next())
+    		  {
+    			  String id=rs.getString(1);
+    			  String name=rs.getString(2);
+    			  int exp=rs.getInt(3);
+    			  
+    			  Employee employee= new Employee(id,name,exp);
+    		  }
+			  
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+
+	public Employee getEmployeeById(String id) {
+		//code to get Employee based on particular id
+		
+		return null;
+	}
+
+}

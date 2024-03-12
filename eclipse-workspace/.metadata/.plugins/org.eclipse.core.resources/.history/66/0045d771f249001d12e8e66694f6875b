@@ -1,0 +1,31 @@
+package com.chandu.setterinjection.myfirstproject;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        //creating Spring Container
+    	ApplicationContext context = new ClassPathXmlApplicationContext("com/chandu/setterinjection/myfirstproject/configmetadata.xml");
+    	
+    	//get customer object
+    	
+    /*	Customer customer =(Customer) context.getBean("cus");
+    	
+    	System.out.println("name : "+customer.getName());
+    	System.out.println("contact : "+customer.getContact());
+    	System.out.println("addresses : "+customer.getAddresses()); */
+    	
+    	
+    	Order order = (Order)context.getBean("ord");
+    	
+    	System.out.println("product id :"+order.getProductid());
+    	System.out.println("product name :"+order.getProductname());
+    	
+    	System.out.println("customer name :"+order.getCustomer().getName());
+    	
+    	
+    }
+}

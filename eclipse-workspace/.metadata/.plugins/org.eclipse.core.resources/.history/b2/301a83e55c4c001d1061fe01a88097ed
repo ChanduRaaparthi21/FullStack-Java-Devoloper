@@ -1,0 +1,7 @@
+package com.chandu.spring.springjdbc.dao.rowmapers;
+
+import org.springframework.jdbc.core.RowMapper;
+
+public class EmployeeRowMaper implements RowMapper<T> {
+
+}

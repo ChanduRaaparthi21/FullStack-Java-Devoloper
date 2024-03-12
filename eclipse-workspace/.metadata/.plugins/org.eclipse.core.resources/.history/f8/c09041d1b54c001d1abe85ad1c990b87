@@ -1,0 +1,5 @@
+package com.chandu.spring.springhibernate.entities;
+
+public class Employee {
+
+}

@@ -1,0 +1,13 @@
+//idhi (6)
+
+package com.chandu.spring.springhibernate.dao;
+
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Component;
+
+@Component //automatic ga configuration chesukuntadhi
+public class EmployeeDaoImpl implements EmployeeDao {
+	
+	private HibernateTemplate hibernateTemplate;
+
+}

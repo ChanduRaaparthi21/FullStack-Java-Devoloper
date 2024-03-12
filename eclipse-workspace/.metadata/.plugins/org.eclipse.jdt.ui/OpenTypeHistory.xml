@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=springjdbc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandu.spring.springjdbc.business{EmployeeBusiness.java[EmployeeBusiness" modifiers="513" timestamp="1665808252591"/>
+    <typeInfo handle="=springjdbc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandu.spring.springjdbc.dao{Employeedao.java[Employeedao" modifiers="513" timestamp="1665748972286"/>
+    <typeInfo handle="=springjdbc/C:\/Users\/chand\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.3.23\/spring-jdbc-5.3.23.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-jdbc=/=/maven.version=/5.3.23=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.jdbc.core(RowMapper.class[RowMapper" modifiers="1537" timestamp="1665807671071"/>
+    <typeInfo handle="=springhibernate/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandu.spring.springhibernate.business{EmployeeBusiness.java[EmployeeBusiness" modifiers="513" timestamp="1665860286347"/>
+    <typeInfo handle="=springhibernate/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandu.spring.springhibernate.dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1665891561169"/>
+</typeInfoHistroy>

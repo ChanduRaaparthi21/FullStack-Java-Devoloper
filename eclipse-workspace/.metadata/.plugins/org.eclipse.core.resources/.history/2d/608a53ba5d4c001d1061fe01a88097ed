@@ -1,0 +1,17 @@
+package com.chandu.spring.springjdbc.dao.rowmapers;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.jdbc.core.RowMapper;
+
+import com.chandu.spring.springjdbc.dto.Employee;
+
+public class EmployeeRowMaper implements RowMapper<Employee> {
+
+	public Employee mapRow(ResultSet rs, int rowNum) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

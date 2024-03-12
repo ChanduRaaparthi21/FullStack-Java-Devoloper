@@ -1,0 +1,7 @@
+//idhi (4)
+
+package com.chandu.spring.springhibernate.business;
+
+public class EmployeeBusinessImpl implements EmployeeBusiness {
+
+}

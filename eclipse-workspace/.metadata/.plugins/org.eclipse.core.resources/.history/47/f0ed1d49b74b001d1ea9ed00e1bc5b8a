@@ -1,0 +1,10 @@
+package com.chandu.spring.springjdbc.business;
+
+public class EmployeeBusinessImpl implements EmployeeBusiness {
+
+	public void printEmployeeHikes() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

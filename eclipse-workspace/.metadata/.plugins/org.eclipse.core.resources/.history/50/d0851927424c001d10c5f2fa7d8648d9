@@ -1,0 +1,6 @@
+package com.chandu.spring.springjdbc.business;
+
+public interface EmployeeBusiness {
+	void printEmployeeHikes();
+
+}

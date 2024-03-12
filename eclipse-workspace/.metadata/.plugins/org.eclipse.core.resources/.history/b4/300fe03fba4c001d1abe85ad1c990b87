@@ -1,0 +1,10 @@
+//idhi (4)
+
+package com.chandu.spring.springhibernate.business;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class EmployeeBusinessImpl implements EmployeeBusiness {
+
+}

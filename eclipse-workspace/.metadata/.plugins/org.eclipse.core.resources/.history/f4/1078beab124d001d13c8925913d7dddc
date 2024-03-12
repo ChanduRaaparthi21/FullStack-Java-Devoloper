@@ -1,0 +1,23 @@
+package com.chandu.spring.springhibernate;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.chandu.spring.springhibernate.business.EmployeeBusinessImpl;
+import com.chandu.spring.springhibernate.entities.Employee;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ApplicationContext context = new ClassPathXmlApplicationContext("configmetadata.xml");
+    	
+    EmployeeBusinessImpl employeeBusinessImpl = (EmployeeBusinessImpl)context.getBean(employeeBusinessImpl);
+    
+    Employee employee = new Employee();
+    }
+}
